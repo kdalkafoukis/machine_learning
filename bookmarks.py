@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.5
+#!/usr/bin/env python3.7
 
 from pathlib import Path
 import json
@@ -18,6 +18,7 @@ def chromeBookmarks():
         return bookmarks , len(bookmarks)
 
 if __name__ == "__main__":
-    main()
+    pr = main()
+    print(pr)
 
 
