@@ -13,6 +13,7 @@ python_version = "3.7"
 future = "*"
 tensorflow = "*"
 pyyaml = "*"
+pandas = "*"
 
 [scripts]
 printhelloworld = "python -c \"print('Hello, World !!!')\""
