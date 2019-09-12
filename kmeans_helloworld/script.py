@@ -59,12 +59,12 @@ def testModel(vectorizer,model):    #make predictions according to the model
 
     print("\n")
     print("Prediction for word android")
-    Y = vectorizer.transform(["android."])
+    Y = vectorizer.transform(["android"])
     prediction = model.predict(Y)
     print(prediction)
 
     print("Prediction for word iphone")
-    Y = vectorizer.transform(["iphone."])
+    Y = vectorizer.transform(["play tv ...motherfuckers"])
     prediction = model.predict(Y)
     print(prediction)
 
