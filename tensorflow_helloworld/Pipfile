@@ -14,6 +14,9 @@ future = "*"
 tensorflow = "*"
 pyyaml = "*"
 pandas = "*"
+keras = "*"
+numpy = "*"
+matplotlib = "*"
 
 [scripts]
 printhelloworld = "python -c \"print('Hello, World !!!')\""
