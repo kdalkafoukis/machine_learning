@@ -1,2 +1,1 @@
-# machine_learning
-Experimental repository
+# repository for multiple ML projects
