@@ -1,0 +1,23 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[requires]
+python_version = "3.7"
+
+[packages]
+future = "*"
+tensorflow = "*"
+pyyaml = "*"
+pandas = "*"
+keras = "*"
+numpy = "*"
+matplotlib = "*"
+
+[scripts]
+printhelloworld = "python -c \"print('Hello, World !!!')\""
+start = "python helloworld.py"
