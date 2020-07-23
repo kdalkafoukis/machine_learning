@@ -1,6 +1,7 @@
 from flask import Flask
 from tensorflow.keras import models
 import numpy as np
+import re
 
 '''
 XOR gate
@@ -60,8 +61,11 @@ def hello_world():
 
 @app.route('/<text>')
 def print_output(text):
-    arr = eval('np.array([[' + text + ']])')
+    matchedText = re.search('^[0-1],[0-1]$', text)
+    if(matchedText):
+        arr = eval('np.array([[' + text + ']])')
 
-    # predict results
-    prediction = makePrediction(model, arr)
-    return "XOR output:" + str(int(prediction[0][0].round()))
+        # predict results
+        prediction = makePrediction(model, arr)
+        return "XOR output:" + str(int(prediction[0][0].round()))
+    return "please enter next to the url eg. 0,1"

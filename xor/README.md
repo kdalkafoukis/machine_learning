@@ -36,7 +36,7 @@ trains the model and saves it along with the weights on disk
 
 ### run the model
 
-run `python run_xor_model.py`
+run `sh run_xor_model.sh`
 
 loads the model and weight from disk and makes predictions
 for XOR truth table
