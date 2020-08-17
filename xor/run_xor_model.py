@@ -14,17 +14,6 @@ XOR gate
 ---------------------------
 '''
 
-
-def getInput():
-    data = np.array([
-        [0, 0],
-        [0, 1],
-        [1, 0],
-        [1, 1]
-    ])
-    return data
-
-
 def loadModel():
     # load json and create model
     json_file = open('model.json', 'r')
