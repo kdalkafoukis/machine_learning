@@ -26,6 +26,6 @@ make
 
 ### run
 
-- `python video_object_detection2.py --video videos/test_video.mp4 --weights darknet/yolov3.weights --configs darknet/cfg/yolov3.cfg --class_names darknet/data/coco.names`
+- `python video_object_detection2.py --video videos/test_video.mp4 --weights darknet/yolov4.weights --configs darknet/cfg/yolov4.cfg --class_names darknet/data/coco.names`
 
 - `python video_object_detection.py`

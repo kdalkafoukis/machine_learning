@@ -5,8 +5,8 @@ import numpy as np
 import argparse
 import time
 
-weights = "darknet/" + "yolov3.weights"
-cfg = "darknet/cfg/" + "yolov3.cfg"
+weights = "darknet/" + "yolov4.weights"
+cfg = "darknet/cfg/" + "yolov4.cfg"
 names = "darknet/data/" + "coco.names"
 video_path = "videos/" + "test_video.mp4"
 
